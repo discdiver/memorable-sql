@@ -1,14 +1,4 @@
-Load Data to Download for Memorable SQL users
-
-200 records from Kiva Loan dataset via Kaggle.  
-
-Original data source: https://www.kaggle.com/kiva/data-science-for-good-kiva-crowdfunding.
-License CC0: Public Domain. 
-
-My sampling and cleaning script: https://www.kaggle.com/discdiver/kiva-loans-downsize-for-sql.
-
-
-If you want to copy-paste sample data for the first exercise in the book:
+Data for Memorable SQL book users.
 
 ```sql
 INSERT INTO animals.dogs 
@@ -24,3 +14,15 @@ VALUES
   (9, 'Tish', '2019-10-04', 29.3, 3, 'retriever', 'brown'),
   (10, 'Gunter', '2019-11-16', 6.3, 4, 'dachshund', 'black, white');
 ```
+
+
+
+The kiva_loans_200.csv file contains 200 records from a Kiva Loan dataset via Kaggle.  
+
+Original data source: https://www.kaggle.com/kiva/data-science-for-good-kiva-crowdfunding.
+License CC0: Public Domain. 
+
+My sampling and cleaning script: https://www.kaggle.com/discdiver/kiva-loans-downsize-for-sql.
+
+
+
