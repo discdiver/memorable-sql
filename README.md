@@ -17,7 +17,7 @@ VALUES
 
 
 
-The kiva_loans_200.csv file contains 200 records from a Kiva Loan dataset via Kaggle.  
+The ![kiva_loans_200.csv](https://github.com/discdiver/memorable-sql/blob/master/kiva_loans_200.csv) file contains 200 records from a Kiva Loan dataset via Kaggle.  
 
 Original data source: https://www.kaggle.com/kiva/data-science-for-good-kiva-crowdfunding.
 License CC0: Public Domain. 
