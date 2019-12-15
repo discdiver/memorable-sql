@@ -1,9 +1,12 @@
 Data for Memorable SQL book users.
 
+
+Insert intitial values into animals.dogs table.
+
 ```sql
 INSERT INTO animals.dogs 
 VALUES 
-  (1,  'Buster', '2019-02-11', 10.2,	4, 'beagle', 'tri')
+  (1,  'Buster', '2019-02-11', 10.2,	4, 'beagle', 'tri'),
   (2, 'Betty', '2019-01-04', 22.3, 4, 'basset hound', 'brown'),
   (3, 'Barry', '2019-01-09', 62.0, 4, 'German Shepherd', 'grey'),
   (4, 'Billi', '2019-06-11', 33.3, 4, 'lab', 'brown'),
