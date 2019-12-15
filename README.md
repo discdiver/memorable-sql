@@ -80,12 +80,23 @@ ALTER TABLE people.owners
 INSERT INTO people.owners
 VALUES 
     (1, 'Veronica', 'James', 'vj@vjvj.com', 1234567890),
-	(2, 'Kurt', 'Smith', 'ks@kurtsmithis.com', 5678901111),
-	(3, 'Julia', 'Okey', 'julia@okeydokeyj.com', 4567890000),
-	(4, 'Will', 'Lee', 'wl@wlwl.com', NULL),
-	(5, 'Shannon', 'Shoop', 'shoop@shoopy.com', 2224445555);
+    (2, 'Kurt', 'Smith', 'ks@kurtsmithis.com', 5678901111),
+    (3, 'Julia', 'Okey', 'julia@okeydokeyj.com', 4567890000),
+    (4, 'Will', 'Lee', 'wl@wlwl.com', NULL),
+    (5, 'Shannon', 'Shoop', 'shoop@shoopy.com', 2224445555);
 ```
 
+## More dogs to insert into animals.dogs
+
+```sql
+INSERT INTO animals.dogs
+VALUES
+    (11, 'Woofer', '2019-03-11', 16.6,	4, 'beagle', 'tri'),
+    (12, 'Toto', '2019-06-11', 16.9, 4, 'beagle', 'tri');
+    (13, 'Crunchy', '2019-02-26', 26.4,	4, 'corgi', 'brown'),
+    (14, 'Fuzzball', '2019-05-22', 12.0, 4, 'corgi', 'orange'),
+    (15, 'Rizzo', '2019-04-09', 16.0,	4, 'corgi', 'tri-colored');
+```
 
 ## Kiva Loan Data
 The [kiva_loans_200.csv](https://github.com/discdiver/memorable-sql/blob/master/kiva_loans_200.csv) file contains 200 records from a Kiva Loan dataset via Kaggle.  
