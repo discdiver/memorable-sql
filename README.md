@@ -1,7 +1,7 @@
-Data for Memorable SQL book users.
+# Data for Memorable SQL book users
+## Book available at [memorablesql.com](https://memorablesql.com)
 
-
-Insert intitial values into animals.dogs table.
+## Intitial values for animals.dogs table
 
 ```sql
 INSERT INTO animals.dogs 
@@ -19,7 +19,7 @@ VALUES
 ```
 
 
-Create schemas and tables for pet adoptions and people.
+## Code to copy/paste to create schemas and tables for adoptions and owners
 
 ```sql
 -- create adoptions schema
@@ -28,10 +28,11 @@ CREATE SCHEMA adoptions
 
 
 -- create adoption table
-CREATE TABLE animals.adoption
+CREATE TABLE adoptions.adoption
 (
     adoption_id serial NOT NULL,
     pet_id integer,
+    owner_id integer,
     adoption_date date,
     fee numeric,
     PRIMARY KEY (adoption_id)
@@ -40,7 +41,7 @@ WITH (
     OIDS = FALSE
 );
 
-ALTER TABLE animals.adoption
+ALTER TABLE adoptions.adoption
     OWNER to postgres;
 
 
@@ -86,12 +87,10 @@ VALUES
 ```
 
 
+## Kiva Loan Data
 The [kiva_loans_200.csv](https://github.com/discdiver/memorable-sql/blob/master/kiva_loans_200.csv) file contains 200 records from a Kiva Loan dataset via Kaggle.  
 
 Original data source: https://www.kaggle.com/kiva/data-science-for-good-kiva-crowdfunding.
 License CC0: Public Domain. 
 
 My sampling and cleaning script: https://www.kaggle.com/discdiver/kiva-loans-downsize-for-sql.
-
-
-
