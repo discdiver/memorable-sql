@@ -19,6 +19,72 @@ VALUES
 ```
 
 
+Create schemas and tables for pet adoptions and people.
+
+```sql
+-- create adoptions schema
+CREATE SCHEMA adoptions
+    AUTHORIZATION postgres;
+
+
+-- create adoption table
+CREATE TABLE animals.adoption
+(
+    adoption_id serial NOT NULL,
+    pet_id integer,
+    adoption_date date,
+    fee numeric,
+    PRIMARY KEY (adoption_id)
+)
+WITH (
+    OIDS = FALSE
+);
+
+ALTER TABLE animals.adoption
+    OWNER to postgres;
+
+
+--insert values into adoption
+INSERT INTO adoptions.adoption
+VALUES 
+  (1, 5, 3, '2019-11-07', 90.00),
+  (2, 2, 3, '2019-11-07', 45.00),
+  (3, 6, 4, '2019-11-09', 90.00),
+  (4, 3, 2, '2019-11-11', 90.00);
+
+
+-- create people schema
+CREATE SCHEMA people
+    AUTHORIZATION postgres;
+
+-- create owners table
+CREATE TABLE people.owners
+(
+    owner_id serial NOT NULL,
+    first_name text NOT NULL,
+    last_name text NOT NULL,
+    email text,
+    phone bigint,
+    PRIMARY KEY (owner_id)
+)
+WITH (
+    OIDS = FALSE
+);
+
+ALTER TABLE people.owners
+    OWNER to postgres;
+
+
+-- insert values into owners table
+INSERT INTO people.owners
+VALUES 
+    (1, 'Veronica', 'James', 'vj@vjvj.com', 1234567890),
+	(2, 'Kurt', 'Smith', 'ks@kurtsmithis.com', 5678901111),
+	(3, 'Julia', 'Okey', 'julia@okeydokeyj.com', 4567890000),
+	(4, 'Will', 'Lee', 'wl@wlwl.com', NULL),
+	(5, 'Shannon', 'Shoop', 'shoop@shoopy.com', 2224445555);
+```
+
 
 The [kiva_loans_200.csv](https://github.com/discdiver/memorable-sql/blob/master/kiva_loans_200.csv) file contains 200 records from a Kiva Loan dataset via Kaggle.  
 
