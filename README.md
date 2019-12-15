@@ -1,7 +1,7 @@
 # Data for Memorable SQL book users
 ## Book available at [memorablesql.com](https://memorablesql.com)
 
-## Intitial values for animals.dogs table
+## Code to copy/paste to add intitial values for animals.dogs table
 
 ```sql
 INSERT INTO animals.dogs 
@@ -19,7 +19,7 @@ VALUES
 ```
 
 
-## Code to copy/paste to create schemas and tables for adoptions and owners
+## Code to copy/paste to create schemas, tables, and data for adoptions and owners
 
 ```sql
 -- create adoptions schema
