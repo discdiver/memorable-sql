@@ -98,6 +98,41 @@ VALUES
     (15, 'Rizzo', '2019-04-09', 16.0,	4, 'corgi', 'tri-colored');
 ```
 
+## Weights table
+```
+-- create weights table
+CREATE TABLE animals.weights
+(
+    weight_id serial NOT NULL,
+    weigh_date date,
+    weight numeric,
+    pet_id integer,
+    PRIMARY KEY (weight_id)
+)
+WITH (
+    OIDS = FALSE
+);
+
+ALTER TABLE animals.weights
+    OWNER to postgres;
+	
+	
+--insert data into weights table
+
+
+INSERT INTO animals.weights
+VALUES
+(1, '2019-10-15', 61.2, 3),
+(2, '2019-10-15', 20.3, 2),
+(3, '2019-10-15', 69.5, 6),
+(4, '2019-10-15', 31.2, 4),
+(5, '2019-10-15', 20.9, 5),
+(6, '2019-11-15', 64.5, 3),
+(7, '2019-11-15', 44.2, 8),
+(8, '2019-11-15', 20.0, 2),
+(9, '2019-11-15', 70.3, 6);
+```
+
 ## Kiva Loan Data
 The [kiva_loans_200.csv](https://github.com/discdiver/memorable-sql/blob/master/kiva_loans_200.csv) file contains 200 records from a Kiva Loan dataset via Kaggle.  
 
@@ -105,3 +140,33 @@ Original data source: https://www.kaggle.com/kiva/data-science-for-good-kiva-cro
 License CC0: Public Domain. 
 
 My sampling and cleaning script: https://www.kaggle.com/discdiver/kiva-loans-downsize-for-sql.
+
+### Kiva loan table creation code
+
+```
+CREATE TABLE loans.loan
+(
+    id serial NOT NULL,
+    funded_amount numeric,
+    loan_amount numeric,
+    activity text,
+    sector text,
+    use text,
+    country_code text,
+    country text,
+    region text,
+    currency text,
+    partner_id numeric,
+    posted_time timestamp,
+    disbursed_time timestamp,
+    funded_time timestamp,
+    term_in_months numeric, 
+    lender_count int,
+	  tags text,
+    borrower_genders text,
+    repayment_interval text,
+    "date" date,
+    PRIMARY KEY (id)
+);
+
+```
