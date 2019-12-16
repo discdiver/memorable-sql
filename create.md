@@ -46,8 +46,8 @@ VALUES
   (9, 'Tish', '2019-10-04', 29.3, 3, 'retriever', 'brown'),
   (10, 'Gunter', '2019-11-16', 6.3, 4, 'dachshund', 'black, white'),
   (11, 'Woofer', '2019-03-11', 16.6,	4, 'beagle', 'tri'),
-	(12, 'Toto', '2019-06-11', 16.9, 4, 'beagle', 'tri')
-	(13, 'Crunchy', '2019-02-26', 26.4,	4, 'corgi', 'brown'),
+  (12, 'Toto', '2019-06-11', 16.9, 4, 'beagle', 'tri')
+  (13, 'Crunchy', '2019-02-26', 26.4,	4, 'corgi', 'brown'),
   (14, 'Fuzzball', '2019-05-22', 12.0, 4, 'corgi', 'orange'),
   (15, 'Rizzo', '2019-04-09', 16.0,	4, 'corgi', 'tri-colored');
   
