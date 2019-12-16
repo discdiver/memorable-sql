@@ -1,3 +1,5 @@
+
+```sql
 -- all the code to create everything for Memorable SQL book 
 
 -- create database 
@@ -82,7 +84,7 @@ VALUES
   (4, 3, 2, '2019-11-11', 90.00);
 
 
-- create people schema
+-- create people schema
 CREATE SCHEMA people
     AUTHORIZATION postgres;
 
@@ -112,6 +114,5 @@ VALUES
 	(3, 'Julia', 'Okey', 'julia@okeydokeyj.com', 4567890000),
 	(4, 'Will', 'Lee', 'wl@wlwl.com', NULL),
 	(5, 'Shannon', 'Shoop', 'shoop@shoopy.com', 2224445555);
-  
-  
+```
   
