@@ -1,12 +1,13 @@
 # Data for Memorable SQL book users
 ## Book available at [memorablesql.com](https://memorablesql.com)
 
-## Code to copy/paste to add intitial values for animals.dogs table 
+## Code to create 
+The code initial databases, database objects, and values.
+Copy and paste the code from [this file](/create.md) into your pgAdmin Query Editory.
 
 
-
-## Kiva Loan Data
-The [kiva_loans_200.csv](https://github.com/discdiver/memorable-sql/blob/master/kiva_loans_200.csv) file contains 200 records from a Kiva Loan dataset via Kaggle.  
+## Kiva loan data
+The [kiva_loans_200.csv](/kiva_loans_200.csv) file contains 200 records from a Kiva Loan dataset via Kaggle.  
 
 Original data source: https://www.kaggle.com/kiva/data-science-for-good-kiva-crowdfunding.
 License CC0: Public Domain. 
