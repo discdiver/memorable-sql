@@ -1,13 +1,9 @@
 
 ```sql
--- all the code to create everything for Memorable SQL book 
+-- the code to create database objects for Memorable SQL book 
 
--- create database 
-CREATE DATABASE awesome_animal_adoptions
-    WITH 
-    OWNER = postgres
-    ENCODING = 'UTF8'
-    CONNECTION LIMIT = -1;
+```sql
+-- all the code to create everything for Memorable SQL book 
 
 -- create animals schema
 CREATE SCHEMA animals
@@ -29,7 +25,7 @@ WITH (
     OIDS = FALSE
 );
 
-ALTER TABLE dogs.dog
+ALTER TABLE animals.dogs
     OWNER to postgres;
     
 --insert values into dogs
@@ -66,7 +62,7 @@ WITH (
     OIDS = FALSE
 );
 
-ALTER TABLE animals.adoption
+ALTER TABLE adoptions.adoption
     OWNER to postgres;
 
 
@@ -104,10 +100,9 @@ ALTER TABLE people.owners
 -- insert values into owners table
 INSERT INTO people.owners
 VALUES 
-    (1, 'Veronica', 'James', 'vj@vjvj.com', 1234567890),
-    (2, 'Kurt', 'Smith', 'ks@kurtsmithis.com', 5678901111),
-    (3, 'Julia', 'Okey', 'julia@okeydokeyj.com', 4567890000),
-    (4, 'Will', 'Lee', 'wl@wlwl.com', NULL),
-    (5, 'Shannon', 'Shoop', 'shoop@shoopy.com', 2224445555);
+    (1, 'Veronica', 'James', 'vj@vjvjthis.com', 1234567890),
+    (2, 'Kurt', 'Smith', 'ks@kurtsmiththis.com', 5678901111),
+    (3, 'Julia', 'Okey', 'julia@okeydokeyjthis.com', 4567890000),
+    (4, 'Will', 'Lee', 'wl@wlwlthis.com', NULL),
+    (5, 'Shannon', 'Shoop', 'shoop@shoopythis.com', 2224445555);
 ```
-  
