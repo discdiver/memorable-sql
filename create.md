@@ -35,21 +35,16 @@ ALTER TABLE dogs.dog
 --insert values into dogs
 INSERT INTO animals.dogs
 VALUES 
-  (1,  'Buster', '2019-02-11', 10.2,	4, 'beagle', 'tri'),
-  (2, 'Betty', '2019-01-04', 22.3, 4, 'basset hound', 'brown'),
-  (3, 'Barry', '2019-01-09', 62.0, 4, 'German Shepherd', 'grey'),
-  (4, 'Billi', '2019-06-11', 33.3, 4, 'lab', 'brown'),
-  (5, 'Brenda', '2019-02-13', 23.3, 3, 'mutt', 'black'),
-  (6, 'Bria', '2019-08-24', 60.3, 4, 'beagle-collie', 'black, white'),
-  (7, 'Carrot', '2019-03-01', 12.3, 4, 'mix', 'gray'),
-  (8, 'Wilson', '2019-04-15', 45.3, 4, 'Shar-Pei', 'light brown'),
-  (9, 'Tish', '2019-10-04', 29.3, 3, 'retriever', 'brown'),
-  (10, 'Gunter', '2019-11-16', 6.3, 4, 'dachshund', 'black, white'),
-  (11, 'Woofer', '2019-03-11', 16.6,	4, 'beagle', 'tri'),
-  (12, 'Toto', '2019-06-11', 16.9, 4, 'beagle', 'tri')
-  (13, 'Crunchy', '2019-02-26', 26.4,	4, 'corgi', 'brown'),
-  (14, 'Fuzzball', '2019-05-22', 12.0, 4, 'corgi', 'orange'),
-  (15, 'Rizzo', '2019-04-09', 16.0,	4, 'corgi', 'tri-colored');
+  (1, 'Buster', '2019-02-11', 10.2,	4, 'beagle', 'tri'),
+  (2, 'Billi', '2019-06-11', 33.3, 4, 'lab', 'brown'),
+  (3, 'Bria', '2019-08-24', 60.3, 4, 'beagle-collie', 'black, white'),
+  (4, 'Carrot', '2019-03-01', 42.3, 4, 'mix', 'orange'),
+  (5, 'Wilson', '2019-04-15', 45.3, 4, 'Shar-Pei', 'light brown'),
+  (6, 'Tish', '2019-10-04', 29.3, 3, 'retriever', 'brown'),
+  (7, 'Gunter', '2019-11-16', 9.3, 4, 'dachshund', 'grey'),
+  (8, 'Toto', '2019-06-11', 16.9, 4, 'beagle', 'tri'),
+  (9, 'Sweetie', '2019-02-26', 26.4, 4, 'corgi', 'gray'),
+  (10, 'Rizzo', '2019-04-09', 16.0,	4, 'corgi', 'tri-colored');
   
   
 -- create adoptions schema
