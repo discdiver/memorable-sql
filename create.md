@@ -110,9 +110,9 @@ ALTER TABLE people.owners
 INSERT INTO people.owners
 VALUES 
     (1, 'Veronica', 'James', 'vj@vjvj.com', 1234567890),
-	(2, 'Kurt', 'Smith', 'ks@kurtsmithis.com', 5678901111),
-	(3, 'Julia', 'Okey', 'julia@okeydokeyj.com', 4567890000),
-	(4, 'Will', 'Lee', 'wl@wlwl.com', NULL),
-	(5, 'Shannon', 'Shoop', 'shoop@shoopy.com', 2224445555);
+    (2, 'Kurt', 'Smith', 'ks@kurtsmithis.com', 5678901111),
+    (3, 'Julia', 'Okey', 'julia@okeydokeyj.com', 4567890000),
+    (4, 'Will', 'Lee', 'wl@wlwl.com', NULL),
+    (5, 'Shannon', 'Shoop', 'shoop@shoopy.com', 2224445555);
 ```
   
