@@ -7,7 +7,7 @@ Copy and paste the code from [this file](/create.md) into your pgAdmin Query Edi
 
 
 ## Kiva loan data
-The [kiva_loans_200.csv](/kiva_loans_200.csv) file contains 200 records from a Kiva Loan dataset via Kaggle.  
+The [kiva_loans_200.csv](/kiva_loans_200.csv) file contains 200 records from a Kiva Loan dataset via Kaggle. Click on the link and then right click on *Raw* to download the *.csv* file.  
 
 Original data source: https://www.kaggle.com/kiva/data-science-for-good-kiva-crowdfunding.
 License CC0: Public Domain. 
