@@ -122,7 +122,9 @@ WITH (
 
 ALTER TABLE animals.weights
     OWNER to postgres;
-    
+
+
+-- insert values into weights table
 INSERT INTO animals.weights
 VALUES 
     (1, '2019-10-15', 61.2, 3),
