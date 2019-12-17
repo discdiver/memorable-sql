@@ -105,4 +105,34 @@ VALUES
     (3, 'Julia', 'Okey', 'julia@okeydokeyjthis.com', 4567890000),
     (4, 'Will', 'Lee', 'wl@wlwlthis.com', NULL),
     (5, 'Shannon', 'Shoop', 'shoop@shoopythis.com', 2224445555);
+
+
+--- create weights table 
+CREATE TABLE animals.weights
+(
+    weight_id serial,
+    weight_date date,
+    weight numeric,
+    ped_id integer,
+    PRIMARY KEY (weight_id)
+)
+WITH (
+    OIDS = FALSE
+);
+
+ALTER TABLE animals.weights
+    OWNER to postgres;
+    
+INSERT INTO animals.weights
+VALUES 
+    (1, '2019-10-15', 61.2, 3),
+    (2, '2019-10-15', 20.3, 2),
+    (3, '2019-10-15', 69.5, 6),
+    (4, '2019-10-15', 31.2, 4),
+    (5, '2019-10-15', 20.9, 5),
+    (6, '2019-11-15', 64.5, 3),
+    (7, '2019-11-15', 44.2, 8),
+    (8, '2019-11-15', 20.0, 2),
+    (9, '2019-11-15', 70.3, 6);
+
 ```
