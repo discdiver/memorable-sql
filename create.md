@@ -1,7 +1,3 @@
-
-```sql
--- the code to create database objects for Memorable SQL book 
-
 ```sql
 -- all the code to create everything for Memorable SQL book 
 
