@@ -109,7 +109,7 @@ CREATE TABLE animals.weights
     weight_id serial,
     weight_date date,
     weight numeric,
-    ped_id integer,
+    pet_id integer,
     PRIMARY KEY (weight_id)
 )
 WITH (
