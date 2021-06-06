@@ -1,5 +1,5 @@
 ```sql
--- all the code to create everything for Memorable SQL book 
+-- SQL code to create everything in awesome_animal_adoptions database for Memorable SQL book 
 
 -- create animals schema
 CREATE SCHEMA animals
